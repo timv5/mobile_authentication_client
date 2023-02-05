@@ -1,0 +1,76 @@
+{
+    "yes": "Yes",
+    "no": "No",
+    "mainHeader": "Mobile authentication client!",
+            "@helloWorld": {
+              "mainHeader": "Main application header"
+            },
+    "helloWorld": "Hello World!",
+        "@helloWorld": {
+          "description": "The conventional newborn programmer greeting"
+        },
+    "logout": "Logout",
+        "@logout": {
+            "description": "Logout label for whole app"
+        },
+    "emailInput": "Email",
+        "@emailInput": {
+            "description": "Email input field placeholder"
+        },
+    "usernameInput": "Username",
+        "@usernameInput": {
+            "description": "Username input field placeholder"
+        },
+    "passwordInput": "Password",
+        "@passwordInput": {
+            "description": "Password input field placeholder"
+        },
+    "loginLabel": "Login",
+        "@loginLabel": {
+            "description": "Login label on login screen"
+        },
+    "registerLabel": "Sign Up",
+        "@registerLabel": {
+            "description": "Register label on login screen"
+        },
+    "newAccountLabel": "Create a new account",
+        "@newAccountLabel": {
+            "description": "New Account label on auth screen"
+        },
+    "haveAccountLabel": "I already have an account",
+        "@haveAccountLabel": {
+            "description": "Already have an account label on register screen"
+        },
+    "loading": "Loading...",
+        "@loading": {
+            "description": "Loading label used on a splash screen"
+        },
+    "emailValidation": "Please enter valid email address",
+        "@loading": {
+            "description": "Email validation message"
+        },
+    "usernameValidation": "Please enter valid username",
+        "@loading": {
+            "description": "Username validation message"
+        },
+    "passwordValidation": "Please enter valid password",
+        "@loading": {
+            "description": "Password validation message"
+        },
+    "usernameLengthValidation": "Username should be at least 6 chars long",
+        "@loading": {
+            "description": "Username length validation message"
+        },
+    "loginErrorMessage": "An Error occurred, please check your credentials",
+        "@loading": {
+            "description": "Login Error message"
+        },
+    "unknownErrorMessage": "Unknown error occurred",
+        "@loading": {
+            "description": "Unknown Error message"
+        },
+    "passwordConstraint": "Should have one upper case, lower case, digit, special character, min 8 chars long",
+        "@loading": {
+            "description": "Password constraints related message"
+        }
+}

@@ -1,0 +1,59 @@
+name: mobile_authnetication_client
+description: Mobile authentication client
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  path: ^1.8.0
+#  provider: ^6.0.2
+#  sqflite: ^2.0.2
+  cloud_firestore: 4.3.1
+  firebase_core: 2.4.1
+  firebase_auth: 4.2.5
+  firebase_messaging: 14.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/places.png"
+  adaptive_icon_background: "#191919"
+  adaptive_icon_foreground: "assets/icons/places-adaptive.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages

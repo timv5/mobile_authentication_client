@@ -1,0 +1,23 @@
+{
+    "yes": "Sí",
+    "no": "No",
+    "mainHeader": "Cliente de autenticación móvil",
+    "helloWorld": "¡Hola Mundo!",
+    "logout": "Cerrar sesión",
+    "emailInput": "E-mail",
+    "usernameInput": "Nombre de usuario",
+    "passwordInput": "Clave",
+    "loginLabel": "Acceso",
+    "registerLabel": "Inscribirse",
+    "newAccountLabel": "Crea una cuenta nueva",
+    "haveAccountLabel": "Ya tengo una cuenta",
+    "loading": "Cargando...",
+    "emailValidation": "Por favor ingrese una dirección de correo electrónico válida",
+    "usernameValidation": "Porfavor ingrese un usuario valido",
+    "passwordValidation": "Por favor ingrese una contraseña válida",
+    "usernameLengthValidation": "El nombre de usuario debe tener al menos 6 caracteres de largo",
+    "loginErrorMessage": "Ocurrió un error, verifique sus credenciales",
+    "unknownErrorMessage": "Ocurrió un error desconocido",
+    "passwordConstraint": "Debe tener una mayúscula, una minúscula, debe contener un dígito, un carácter especial, mínimo 8 caracteres de largo"
+
+}

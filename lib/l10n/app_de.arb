@@ -1,0 +1,23 @@
+{
+    "yes": "Ja",
+    "no": "Nein",
+    "mainHeader": "Mobiler Authentifizierungsclient",
+    "helloWorld": "Hallo Welt",
+    "logout": "Ausloggen",
+    "emailInput": "E-mail",
+    "usernameInput": "E-Nutzername",
+    "passwordInput": "Passwort",
+    "loginLabel": "Anmeldung",
+    "registerLabel": "Registrieren",
+    "newAccountLabel": "Ein neues Konto erstellen",
+    "haveAccountLabel": "Ich habe bereits einen Account",
+    "loading": "Wird geladen...",
+    "emailValidation": "Bitte geben Sie eine gültige Email Adresse an",
+    "usernameValidation": "Bitte gültigen Benutzernamen eingeben",
+    "passwordValidation": "Bitte gültiges Passwort eingeben",
+    "usernameLengthValidation": "Der Benutzername sollte mindestens 6 Zeichen lang sein",
+    "loginErrorMessage": "Ein Fehler ist aufgetreten, bitte überprüfen Sie Ihre Anmeldeinformationen",
+    "unknownErrorMessage": "Unbekannter Fehler aufgetreten",
+    "passwordConstraint": "Sollte einen Großbuchstaben, einen Kleinbuchstaben haben, sollte eine Ziffer enthalten, ein Sonderzeichen, mindestens 8 Zeichen lang"
+
+}
