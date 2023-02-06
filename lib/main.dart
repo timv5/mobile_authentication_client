@@ -44,6 +44,7 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.pink,
           errorColor: Colors.lightBlue,
         ),
+        dividerColor: Colors.black,
         unselectedWidgetColor: Colors.white,
         secondaryHeaderColor: Colors.orange,
         elevatedButtonTheme: ElevatedButtonThemeData(
