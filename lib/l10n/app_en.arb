@@ -72,5 +72,17 @@
     "passwordConstraint": "Should have one upper case, lower case, digit, special character, min 8 chars long",
         "@loading": {
             "description": "Password constraints related message"
+        },
+    "cryptoMarket": "Crypto market",
+        "@cryptoMarket": {
+            "description": "Crypto market label on main navigation screen"
+        },
+    "stocksMarket": "Stocks market",
+        "@cryptoMarket": {
+            "description": "Stocks market label on main navigation screen"
+        },
+    "news": "News",
+        "@cryptoMarket": {
+            "description": "News label on main navigation screen"
         }
 }

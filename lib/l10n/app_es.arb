@@ -18,6 +18,8 @@
     "usernameLengthValidation": "El nombre de usuario debe tener al menos 6 caracteres de largo",
     "loginErrorMessage": "Ocurrió un error, verifique sus credenciales",
     "unknownErrorMessage": "Ocurrió un error desconocido",
-    "passwordConstraint": "Debe tener una mayúscula, una minúscula, debe contener un dígito, un carácter especial, mínimo 8 caracteres de largo"
-
+    "passwordConstraint": "Debe tener una mayúscula, una minúscula, debe contener un dígito, un carácter especial, mínimo 8 caracteres de largo",
+    "cryptoMarket": "Mercado criptográfico",
+    "stocksMarket": "Mercado de valores",
+    "news": "Noticias"
 }

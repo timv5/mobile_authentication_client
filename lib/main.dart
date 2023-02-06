@@ -6,8 +6,11 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:mobile_authnetication_client/l10n/l10n.dart' as SupportedLanguages;
 import 'package:mobile_authnetication_client/screen/auth_screen.dart';
+import 'package:mobile_authnetication_client/screen/crypto_market_screen.dart';
 import 'package:mobile_authnetication_client/screen/main_navigation_screen.dart';
+import 'package:mobile_authnetication_client/screen/news_screen.dart';
 import 'package:mobile_authnetication_client/screen/splash_screen.dart';
+import 'package:mobile_authnetication_client/screen/stocks_market_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,6 +44,8 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.pink,
           errorColor: Colors.lightBlue,
         ),
+        unselectedWidgetColor: Colors.white,
+        secondaryHeaderColor: Colors.orange,
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
               foregroundColor: Colors.white,
@@ -75,6 +80,9 @@ class _MyAppState extends State<MyApp> {
       ),
       routes: {
         AuthScreen.routeName: (context) => const AuthScreen(),
+        CryptoMarketScreen.routeName: (context) => const CryptoMarketScreen(),
+        StocksMarketScreen.routeName: (context) => const StocksMarketScreen(),
+        NewsScreen.routeName: (context) => const NewsScreen(),
       },
     );
   }

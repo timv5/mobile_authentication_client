@@ -18,6 +18,8 @@
     "usernameLengthValidation": "Der Benutzername sollte mindestens 6 Zeichen lang sein",
     "loginErrorMessage": "Ein Fehler ist aufgetreten, bitte überprüfen Sie Ihre Anmeldeinformationen",
     "unknownErrorMessage": "Unbekannter Fehler aufgetreten",
-    "passwordConstraint": "Sollte einen Großbuchstaben, einen Kleinbuchstaben haben, sollte eine Ziffer enthalten, ein Sonderzeichen, mindestens 8 Zeichen lang"
-
+    "passwordConstraint": "Sollte einen Großbuchstaben, einen Kleinbuchstaben haben, sollte eine Ziffer enthalten, ein Sonderzeichen, mindestens 8 Zeichen lang",
+    "cryptoMarket": "Krypto-Markt",
+    "stocksMarket": "Aktienmarkt",
+    "news": "Nachricht"
 }
