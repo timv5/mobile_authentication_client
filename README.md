@@ -13,3 +13,7 @@ Mobile flutter client for basic OAuth and authentication
 - add authentication to this project
   - add new sign in method
   - add new user (for login purposes)
+- add Firestore Database and define new collection "users" with fields
+  - auto generated ID
+  - email
+  - username

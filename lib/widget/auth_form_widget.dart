@@ -33,7 +33,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
       _formKey.currentState!.save();
 
       // authenticate user
-      widget.submitAuthentication(_userEmail!, _userName != null ? _userName! : '', _userPassword!, true, context);
+      widget.submitAuthentication(_userEmail!, _userName != null ? _userName! : '', _userPassword!, _isLogin, context);
     }
   }
 
@@ -115,7 +115,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
                     textCapitalization: TextCapitalization.none,
                     enableSuggestions: false,
                     keyboardType: TextInputType.text,
-                    decoration: InputDecoration(labelText: AppLocalizations.of(context).passwordInput),
+                    decoration: InputDecoration(labelText: AppLocalizations.of(context).usernameInput),
                     validator: (inputtedUsername) {
                       return _usernameValidation(inputtedUsername!, context);
                     },

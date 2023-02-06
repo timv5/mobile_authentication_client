@@ -65,7 +65,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                   BottomNavigationBarItem(icon: const Icon(Icons.newspaper), label: AppLocalizations.of(context).news)
                 ],
               ),
-              drawer: SideMenuNavigationWidget(),
+              drawer: SideMenuNavigationWidget(_selectPage),
             );
           } else {
             return const AuthScreen();
