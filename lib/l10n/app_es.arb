@@ -21,5 +21,6 @@
     "passwordConstraint": "Debe tener una mayúscula, una minúscula, debe contener un dígito, un carácter especial, mínimo 8 caracteres de largo",
     "cryptoMarket": "Mercado criptográfico",
     "stocksMarket": "Mercado de valores",
-    "news": "Noticias"
+    "news": "Noticias",
+    "noData": "No data available at the moment"
 }

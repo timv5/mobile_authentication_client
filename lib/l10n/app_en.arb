@@ -84,5 +84,9 @@
     "news": "News",
         "@cryptoMarket": {
             "description": "News label on main navigation screen"
+        },
+    "noData": "No data available at the moment",
+        "@noData": {
+            "description": "No data available at the moment message"
         }
 }

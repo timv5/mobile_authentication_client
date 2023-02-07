@@ -17,3 +17,6 @@ Mobile flutter client for basic OAuth and authentication
   - auto generated ID
   - email
   - username
+
+## Access to the internet
+- source: https://docs.flutter.dev/cookbook/networking/fetch-data

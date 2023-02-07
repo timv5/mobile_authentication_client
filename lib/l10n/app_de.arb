@@ -21,5 +21,6 @@
     "passwordConstraint": "Sollte einen Großbuchstaben, einen Kleinbuchstaben haben, sollte eine Ziffer enthalten, ein Sonderzeichen, mindestens 8 Zeichen lang",
     "cryptoMarket": "Krypto-Markt",
     "stocksMarket": "Aktienmarkt",
-    "news": "Nachricht"
+    "news": "Nachricht",
+    "noData": "No data available at the moment"
 }
