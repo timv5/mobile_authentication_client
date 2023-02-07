@@ -7,7 +7,7 @@ abstract class Constants {
 
   static const String cryptoBaseUrl = String.fromEnvironment(
       'CRYPTO_BASE_URL',
-      defaultValue: 'https://coingecko.p.rapidapi.com'
+      defaultValue: 'https://coinranking1.p.rapidapi.com'
   );
 
   static const List<String> stockList = ['AAPL', 'GOOG', 'MSFT', 'AMZN'];
@@ -17,5 +17,6 @@ abstract class Constants {
 
   static const String HEADER_HOST = 'X-RapidAPI-Host';
   static const String HEADER_HOST_VALUE = 'yahoo-finance15.p.rapidapi.com';
+  static const String HEADER_HOST_CRYPTO_VALUE = 'coinranking1.p.rapidapi.com';
 
 }
