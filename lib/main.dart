@@ -10,6 +10,7 @@ import 'package:mobile_authnetication_client/screen/crypto_market_screen.dart';
 import 'package:mobile_authnetication_client/screen/main_navigation_screen.dart';
 import 'package:mobile_authnetication_client/screen/news_screen.dart';
 import 'package:mobile_authnetication_client/screen/splash_screen.dart';
+import 'package:mobile_authnetication_client/screen/stock_notes_screen.dart';
 import 'package:mobile_authnetication_client/screen/stocks_market_screen.dart';
 
 void main() async {
@@ -84,6 +85,7 @@ class _MyAppState extends State<MyApp> {
         CryptoMarketScreen.routeName: (context) => const CryptoMarketScreen(),
         StocksMarketScreen.routeName: (context) => const StocksMarketScreen(),
         NewsScreen.routeName: (context) => const NewsScreen(),
+        StockNotesScreen.routeName: (context) => const StockNotesScreen(),
       },
     );
   }

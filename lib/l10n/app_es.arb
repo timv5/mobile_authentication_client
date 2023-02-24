@@ -22,5 +22,8 @@
     "cryptoMarket": "Mercado criptográfico",
     "stocksMarket": "Mercado de valores",
     "news": "Noticias",
-    "noData": "No data available at the moment"
+    "noData": "No data available at the moment",
+    "stockNotes": "Notas de acciones",
+    "stockNotesDeleteAlertTitle": "Eliminar nota de existencias",
+    "stockNotesDeleteAlertBody": "¿Está seguro de que desea eliminar esta nota de cotización? La acción no se puede deshacer"
 }

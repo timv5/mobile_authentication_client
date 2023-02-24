@@ -18,8 +18,8 @@ class StockWidget extends StatelessWidget {
         padding: const EdgeInsets.all(8),
         child: ListTile(
           leading: Text(symbol),
-          title: Text(exchange),
-          subtitle: Text(market),
+          title: Text('Market: $market'),
+          subtitle: Text('Exchange: $exchange'),
         ),
       ),
     );

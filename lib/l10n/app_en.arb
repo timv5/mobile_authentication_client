@@ -88,5 +88,17 @@
     "noData": "No data available at the moment",
         "@noData": {
             "description": "No data available at the moment message"
+        },
+    "stockNotes": "Stock Notes",
+        "@stockNotes": {
+            "description": "Main navigation for stock notes"
+        },
+    "stockNotesDeleteAlertTitle": "Delete Stock Note",
+        "@stockNotes": {
+            "description": "Title on alert for deleting stock note"
+        },
+    "stockNotesDeleteAlertBody": "Are you sure you want to delete this stock note? Action cannot be undone",
+        "@stockNotes": {
+            "description": "Body on alert for deleting stock note"
         }
 }

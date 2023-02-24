@@ -20,9 +20,9 @@ class CryptoWidget extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8),
         child: ListTile(
-          leading: Text(name),
-          title: Text(symbol),
-          subtitle: Text(price)
+          leading: Text('$symbol, $name'),
+          title: Text('Market cap: $marketCap\$'),
+          subtitle: Text('Current Price: $price\$')
         ),
       ),
     );

@@ -74,6 +74,11 @@ class SideMenuNavigationWidget extends StatelessWidget {
                   title: Text(AppLocalizations.of(context).news),
                   onTap: ()=>onTap(2),
                 ),
+                ListTile(
+                  leading: const Icon(Icons.note),
+                  title: Text(AppLocalizations.of(context).stockNotes),
+                  onTap: ()=>onTap(3),
+                ),
                 Divider(color: Theme.of(context).dividerColor,),
                 ListTile(
                   leading: const Icon(Icons.logout),

@@ -22,5 +22,9 @@
     "cryptoMarket": "Krypto-Markt",
     "stocksMarket": "Aktienmarkt",
     "news": "Nachricht",
-    "noData": "No data available at the moment"
+    "noData": "No data available at the moment",
+    "stockNotes": "Stock Notes",
+    "stockNotesDeleteAlertTitle": "Bestandsnotiz löschen",
+    "stockNotesDeleteAlertBody": "Möchten Sie diese Bestandsnotiz wirklich löschen? Aktion kann nicht rückgängig gemacht werden."
+
 }
